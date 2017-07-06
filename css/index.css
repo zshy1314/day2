@@ -1,0 +1,75 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  position: relative; }
+
+.header {
+  font-size: .18rem;
+  height: .44rem;
+  line-height: .44rem;
+  background: #999;
+  color: #fff; }
+
+.content {
+  overflow-y: scroll;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: .4;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%; }
+
+.box {
+  width: 90%;
+  height: 70%;
+  background: #fff;
+  border-radius: .3rem;
+  position: absolute;
+  top: 20%;
+  left: 5%; }
+  .box p {
+    width: 134px;
+    height: 44px;
+    margin: 0 auto;
+    padding-top: 30px; }
+    .box p img {
+      width: 100%;
+      height: 100%; }
+  .box i {
+    display: block;
+    text-align: center;
+    font-style: normal;
+    font-size: .2rem; }
+  .box ul {
+    margin-top: .3rem;
+    width: 100%;
+    height: 1.5rem; }
+    .box ul li {
+      float: left;
+      width: 80%;
+      height: .5rem;
+      margin-left: .3rem;
+      padding-left: 10px;
+      border-bottom: 1px solid #ccc;
+      line-height: .5rem; }
+      .box ul li img {
+        width: 15px;
+        height: 22px;
+        vertical-align: text-bottom; }
+      .box ul li input {
+        border: 0;
+        outline: none; }
+  .box button {
+    width: 80%;
+    height: .4rem;
+    background: #2FBA77;
+    color: #fff;
+    display: block;
+    margin: 0 auto;
+    margin-left: 10%;
+    border: 0;
+    border-radius: .08rem; }
+
+/*# sourceMappingURL=index.css.map */
